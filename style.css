@@ -326,10 +326,25 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style-type: none;
+}
+.nav > li > a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+} 
+.navbar-nav {
+    margin-top: 30px;
+}
+
+.navbar-nav2 {
+    margin-top: -20px;
+    padding-right: 30px;
 }
 
 .nav > li a:hover,
@@ -364,7 +379,7 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
-        position: absolute;
+        position: relative;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
@@ -655,7 +670,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1300px;
 }
 
 .hero-bloc-text {
@@ -823,6 +838,13 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+@media (max-width: 1350px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1047,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .navbar-nav2 {
+        margin-top: 20px;
     }
 }
 
