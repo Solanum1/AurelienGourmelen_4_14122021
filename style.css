@@ -675,6 +675,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: #000!important;
 }
 
 .hero-bloc-text-sub {
@@ -697,7 +698,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -790,17 +791,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -839,6 +840,26 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
+/*Correctifs pour l'accessibilité */
+
+.footer-text {
+    font-size: 18px;
+    color: #000!important;
+}
+
+.access-color {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 0;
+}
+
+.access-contact-bloc6 {
+    font-size: 20px;
+    color: #000!important;
+    font-weight: bold;
+}
+
+/*Medias queries*/
 
 @media (max-width: 1350px) {
     .bloc {
