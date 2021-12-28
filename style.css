@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -346,11 +346,11 @@ a:hover {
     margin-top: 30px;
 }
 
-.navbar-nav2 {
+/* .navbar-nav2 {
     margin-top: -20px;
     padding-right: 30px;
 }
-
+ */
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -862,6 +862,25 @@ h4 {
     color: #000!important;
     font-weight: bold;
 }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgba(0, 0, 0, 1)!important;
+    display: block;
+    padding-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 385px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+
 
 /*Medias queries*/
 
