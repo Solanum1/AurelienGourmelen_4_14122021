@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+blockquote, figcaption {
+    color:rgba(0, 0, 0, 1)!important;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -347,6 +351,8 @@ a:hover {
     padding-right: 30px;
 }
 
+
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -666,7 +672,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
