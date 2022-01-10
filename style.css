@@ -90,6 +90,10 @@ a:hover {
     right: 0;
 }
 
+blockquote, figcaption {
+    color: #000!important;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -670,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000!important;
 }
 
 .container {
